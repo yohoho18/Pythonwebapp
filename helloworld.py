@@ -1,6 +1,6 @@
 def application(environ, start_response):
     status = '200 OK'
-    output = b'Let me check. Is this is Traing Python?'
+    output = b'Is this ok now ? Hello there. Let me check. Is this is Traing Python?'
     
     response_headers = [('Content-type', 'text/plain'),
                         ('Content-Length', str(len(output)))]
